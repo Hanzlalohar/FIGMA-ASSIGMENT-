@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #f8f8f8;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    width: 38%;
+    background-color: #002147;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+  }
+  
+  .content {
+    width: 80%;
+    max-width: 320px;
+  }
+  
+  .logo {
+    width: 419px;
+    margin: 0 auto 20px auto;
+    display: block;
+    height: 114px;
+    top: 88px;
+    left: 89px;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-box i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 16px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #b0c4de;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  .sign-in-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e5de7;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .divider {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #aaa;
+    position: relative;
+  }
+  
+  .divider::before, .divider::after {
+    content: '';
+    height: 1px;
+    width: 40%;
+    background: #aaa;
+    position: absolute;
+    top: 50%;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-login button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .google-btn {
+    background: #db4437;
+    color: #fff;
+  }
+  
+  .facebook-btn {
+    background: #4267B2;
+    color: #fff;
+  }
+  
+  .apple-btn {
+    background: #000;
+    color: #fff;
+  }
+  
+  .signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  
+  .signup a {
+    color: #4db8ff;
+    text-decoration: none;
+  }
+  
+  .right-panel {
+    width: 63%;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .right-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
